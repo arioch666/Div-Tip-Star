@@ -14,6 +14,7 @@
 		912B10B31D9E2AF400713C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912B10B11D9E2AF400713C71 /* LaunchScreen.storyboard */; };
 		912B10BE1D9E2AF400713C71 /* Div_Tip_starTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B10BD1D9E2AF400713C71 /* Div_Tip_starTests.swift */; };
 		912B10C91D9E2AF400713C71 /* Div_Tip_starUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B10C81D9E2AF400713C71 /* Div_Tip_starUITests.swift */; };
+		912B10D91D9E4BB300713C71 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B10D81D9E4BB300713C71 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		912B10C41D9E2AF400713C71 /* Div-Tip-starUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Div-Tip-starUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B10C81D9E2AF400713C71 /* Div_Tip_starUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Div_Tip_starUITests.swift; sourceTree = "<group>"; };
 		912B10CA1D9E2AF400713C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912B10D81D9E4BB300713C71 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		912B10A71D9E2AF400713C71 /* Div-Tip-star */ = {
 			isa = PBXGroup;
 			children = (
+				912B10D81D9E4BB300713C71 /* SettingsViewController.swift */,
 				912B10A81D9E2AF400713C71 /* AppDelegate.swift */,
 				912B10AA1D9E2AF400713C71 /* ViewController.swift */,
 				912B10AC1D9E2AF400713C71 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				912B10AB1D9E2AF400713C71 /* ViewController.swift in Sources */,
 				912B10A91D9E2AF400713C71 /* AppDelegate.swift in Sources */,
+				912B10D91D9E4BB300713C71 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
